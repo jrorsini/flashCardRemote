@@ -1,6 +1,6 @@
 import { FlashCard } from '@/types';
 
-export const questions: FlashCard[] = [
+export const flashCardData: FlashCard[] = [
     {
         id: 1,
         question: 'what is called a Hindi Full Stop ?',
