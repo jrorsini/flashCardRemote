@@ -1,6 +1,8 @@
 /**
  flashcard model
 */
+export type CardStatus = 'unseen' | 'known' | 'review';
+
 export interface FlashCard {
     id: number;
     question: string;
